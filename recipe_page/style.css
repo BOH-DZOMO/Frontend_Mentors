@@ -48,7 +48,7 @@ main {
  color:  var(--Stone-900);
 }
 
-main>section{
+main article>section{
     margin-bottom: 1em;
 }
 
@@ -152,21 +152,23 @@ h2{
         background-color: var(--White);
     }
     main{
-        padding: 0em 0em 1em 0em;
+        padding: 0em;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
+    }
+    article{
+        padding-left: min(1.5em, 1em);
+        padding-right: min(1em, 1em);
     }
     img{
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
-    }
-    .instructions,.ingredients,.nutrition,.preparation-time,.introduction{
-        padding: 0em 1em;
     }
 }
 @media (max-width: 426) {
     h1{
         font-size: 1.5rem;
     }
+
 }
 
